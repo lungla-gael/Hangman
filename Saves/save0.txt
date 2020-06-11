@@ -1,0 +1,1 @@
+{"secret_word":"undetectable","display":["_ ","_ ","_ ","_ ","_ ","_ ","_ ","_ ","a","_ ","_ ","_ "],"tries":6}
