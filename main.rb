@@ -19,7 +19,7 @@ def play_round(file_name,game)
     if guess.size === 1
       game.secret_word.split("").each_with_index { |letter, index| game.display[index] = guess if guess.eql?(letter) }
     else
-      game.display = game.secret_word.split("") if guess.eql?(game.secret_word.split(""))    
+      game.display = game.secret_word.split("") if guess.eql?(game.secret_word)    
     end
   
     puts game.display.join
